@@ -4,7 +4,7 @@
 */
 let teaFlavors = ["Green Tea", "Black tea", "oolong tea"];
 const firstTea = teaFlavors[0];
-// console.log(firstTea);
+console.log(firstTea);
 
 
 
@@ -14,7 +14,7 @@ const firstTea = teaFlavors[0];
 */
 let cities = ["London", "Tokyo", "Paris", "New York"];
 const favoriteCity = cities[2];
-// console.log(favoriteCity);
+console.log(favoriteCity);
 
 
 
@@ -24,7 +24,7 @@ const favoriteCity = cities[2];
 */
 let teaTypes = ["herbal tea", "white tea", "masala chai"];
 teaTypes[1] = "jasmine tea";
-// console.log(teaTypes);
+console.log(teaTypes);
 
 
 
@@ -34,7 +34,7 @@ teaTypes[1] = "jasmine tea";
 */
 let citiesVisited = ["mumbai", "sydney"];
 citiesVisited.push("Berlin");
-// console.log(citiesVisited);
+console.log(citiesVisited);
 
 
 
@@ -43,9 +43,9 @@ citiesVisited.push("Berlin");
    Remove the last element of the array using the `pop` method and store it in a variable named `lastOrder`.
 */
 let teaOrders = ["chai", "iced tea", "matcha", "earl grey"];
-// console.log(teaOrders);
+console.log(teaOrders);
 teaOrders.pop();
-// console.log(teaOrders);
+console.log(teaOrders);
 
 
 
@@ -57,7 +57,7 @@ teaOrders.pop();
 let popularTeas = ["green tea", "oolong tea", "chai"];
 let softCopyTeas = popularTeas;
 popularTeas.pop(); // -> we are only poping from array - popularTeas, but array - softCopyTeas also show the same content as the array popularTeas
-// console.log(softCopyTeas); // it is soft copy, thats why it also get manipulated when the main array gets manipulated
+console.log(softCopyTeas); // it is soft copy, thats why it also get manipulated when the main array gets manipulated
 
 
 
@@ -68,10 +68,10 @@ popularTeas.pop(); // -> we are only poping from array - popularTeas, but array 
 */
 let topCities = ["Berlin", "singapore", "new york"];
 let hardCopyCities = [...topCities]  // 1st method format of making HARD COPY
-// let hardCopyCities = topCities.slice(); // 2nd method.
-// console.log(hardCopyCities);
+let hardCopyCities = topCities.slice(); // 2nd method.
+console.log(hardCopyCities);
 topCities.pop();
-// console.log(hardCopyCities);
+console.log(hardCopyCities);
 
 
 
@@ -82,7 +82,7 @@ topCities.pop();
 let europeanCities = ["Paris", "Rome"]
 let asianCities = ["Tokyo", "Bangkok"]
 let worldCities = europeanCities.concat(asianCities)
-// console.log(worldCities);
+console.log(worldCities);
 
 
 
@@ -92,7 +92,7 @@ let worldCities = europeanCities.concat(asianCities)
 */
 let teaMenu = ["masala chai", "oolong tea", "green tea", "earl grey"]
 let menuLength = teaMenu.length
-// console.log(menuLength);
+console.log(menuLength);
 
 
 

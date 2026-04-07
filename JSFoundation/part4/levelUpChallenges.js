@@ -194,17 +194,17 @@ console.log(doubledNumbers);
 and stop when the length of the current tea name is greater that 10.
 Store the teas iterated over an array named "sortedArray"
 // */
-// let teaTypes = ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"]
-// let sortedArray = []
+let teaTypes = ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"]
+let sortedArray = []
 
-// for (const tea of teaTypes) {
-//     if(tea.length>10){
-//         continue;
-//     }
-//     else{
-//         sortedArray.push(tea)
-//     }
-// }
+for (const tea of teaTypes) {
+    if(tea.length>10){
+        continue;
+    }
+    else{
+        sortedArray.push(tea)
+    }
+}
 console.log(sortedArray);
 
 

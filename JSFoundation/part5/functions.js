@@ -5,11 +5,11 @@ parameter, 'typeOfTea' and returns a string like
 Store the result in a variable name "teaOrder"
 */
 
-// function makeTea(typeOfTea){
-//     return `Making ${typeOfTea}`
-// }
-// let teaOrder = makeTea("green Tea")
-// console.log(teaOrder);
+function makeTea(typeOfTea){
+    return `Making ${typeOfTea}`
+}
+let teaOrder = makeTea("green Tea")
+console.log(teaOrder);
 
 
 
@@ -19,14 +19,14 @@ teaType. inside this funciton, create another funciton
 named confirmOrder that return a message like "order confirmed for chai"
 Call confirmOrder from withing orderTea and return the result
 */
-// function orderTea(teaType){
-//     function confirmOrder(){
-//         return `order confirmed for chai`
-//     }
-//     return confirmOrder()
-// } 
-// let order = orderTea("chai")
-// console.log(order);
+function orderTea(teaType){
+    function confirmOrder(){
+        return `order confirmed for chai`
+    }
+    return confirmOrder()
+} 
+let order = orderTea("chai")
+console.log(order);
 
 
 
@@ -36,11 +36,11 @@ two parameters: 'price' and 'quantity'. The function
 should return the total cost by multiplying the 'price' and qyantity'
 Store the result in a variable named 'totalCost'
 */
-// const calculateTotal = (price, quantity) => {
-//     return price * quantity
-// }
-// let totalCost = calculateTotal(499, 10000)
-// console.log(totalCost);
+const calculateTotal = (price, quantity) => {
+    return price * quantity
+}
+let totalCost = calculateTotal(499, 10000)
+console.log(totalCost);
 
 
 
@@ -50,16 +50,16 @@ another funciton, 'makeTea', as a parameter and calls it
 with the argument "earl grey"
 Return the result of calling makeTea
 */
-// function makeTea(typeOfTea){
-//     return `makeTea: ${typeOfTea}`
-// }
+function makeTea(typeOfTea){
+    return `makeTea: ${typeOfTea}`
+}
 
-// function processTeaOrder(teaFunction) {
-//     return teaFunction("earl grey")
-// }
+function processTeaOrder(teaFunction) {
+    return teaFunction("earl grey")
+}
 
-// let order = processTeaOrder(makeTea)
-// console.log(order);
+let order = processTeaOrder(makeTea)
+console.log(order);
 
 
 

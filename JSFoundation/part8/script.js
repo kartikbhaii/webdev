@@ -59,6 +59,42 @@ document.getElementById("removeLastTask").addEventListener('click', function(){
 })
 
 
+// example 6
+document.getElementById("clickMeButton").addEventListener("click", function(){
+    alert("Well Hello There...")
+})
 
+
+// example 7
+document.getElementById("teaList").addEventListener('click', function(){
+    if (event.target && event.target.matches('.teaItem')) {
+        alert("you seleted: " + event.target.textContent)
+    }
+    
+})
+
+
+// example 8
+document.getElementById("feedbackForm").addEventListener('submit', function(event){
+    event.preventDefault(); // always do this for a 'form' tag. in html and react.
+    let feedback = document.getElementById("feedbackInput").value
+    document.getElementById("feedbackDisplay").textContent = `Feedback is: ${feedback}`
+
+})
+
+
+
+// example 9
+document.addEventListener('DOMContentLoaded', function(){
+    document.getElementById("domStatus").textContent = "DOM Fully Loaded"
+})
+
+
+
+// example 10
+document.getElementById("toggleHighlight").addEventListener('click', function(){
+    let descText = document.getElementById("descriptionText")
+    descText.classList.toggle('highlight')
+})
 
 

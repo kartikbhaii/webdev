@@ -42,7 +42,13 @@ webdev/
 
 ## 📈 Language Stats
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kartikbhaii&repo=webdev&layout=compact&theme=tokyonight)
+### Language Breakdown
+
+- **HTML (42.31%)** - Core markup language for structuring web pages
+- **JavaScript (31.76%)** - Client-side scripting for interactivity and dynamic behavior
+- **CSS (31.27%)** - Styling and layout for visual presentation
+- **EJS (0.88%)** - Templating engine for server-side rendering
+- **Procfile (0.01%)** - Deployment configuration
 
 ---
 

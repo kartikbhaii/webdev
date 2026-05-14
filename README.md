@@ -5,6 +5,31 @@ This repository contains hands-on projects and experiments built while learning 
 
 ---
 
+## 🛠️ Technologies Used
+
+This project utilizes a diverse set of web development technologies:
+
+### Language Composition
+
+| Language | Bytes | Percentage |
+|----------|-------|-----------|
+| HTML | 57,432 | **42.31%** |
+| JavaScript | 43,147 | **31.76%** |
+| CSS | 42,470 | **31.27%** |
+| EJS | 1,192 | **0.88%** |
+| Procfile | 16 | **0.01%** |
+| **Total** | **144,257** | **100%** |
+
+
+## ✨ Features
+
+- HTML-based web pages and components
+- JavaScript functionality for interactive user experience
+- CSS styling for responsive design
+- EJS templating for dynamic content generation
+- Procfile configuration for deployment
+
+
 ## 📂 Repository Structure
 
 ```bash
@@ -27,50 +52,29 @@ webdev/
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Getting Started
 
-- HTML5
-- CSS3
-- JavaScript
-- Node.js
-- Express.js
-- EJS
-- Tailwind CSS
-- APIs
+To get started with this project:
 
----
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kartikbhaii/webdev.git
+   ```
 
-## 📈 Language Stats
+2. Navigate to the project directory:
+   ```bash
+   cd webdev
+   ```
 
-- **HTML (42.31%)** - Core markup language for structuring web pages
-- **JavaScript (31.76%)** - Client-side scripting for interactivity and dynamic behavior
-- **CSS (31.27%)** - Styling and layout for visual presentation
-- **EJS (0.88%)** - Templating engine for server-side rendering
-- **Procfile (0.01%)** - Deployment configuration
+3. Install dependencies (if any):
+   ```bash
+   npm install
+   ```
 
----
-
-## ✨ What’s Inside
-
-- Beginner to intermediate web development practice
-- JavaScript fundamentals
-- Backend development with Node.js & Express
-- API handling projects
-- EJS templating practice
-- Tailwind CSS experiments
-- Mini projects for learning and improving skills
-
----
-
-## 🎯 Goal of This Repository
-
-This repository is mainly focused on:
-- Improving development skills through practice
-- Building real-world mini projects
-- Learning backend concepts deeply
-- Tracking my coding journey publicly
-
----
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
 ## 👨‍💻 Author
 

@@ -1,18 +1,10 @@
-# webdev
+# WEBDEV
 
-A web development project created on March 11, 2026.
+A web development repo created to post the code as I've working on Full-Stack Dev.
 
 ## 📋 Description
 
 This is a public web development repository containing code for building and managing web applications.
-
-## 🌟 Repository Stats
-
-- **Created**: March 11, 2026
-- **Last Updated**: May 14, 2026
-- **Repository Size**: 10.4 MB
-- **Default Branch**: main
-- **Visibility**: Public
 
 ## 🛠️ Technologies Used
 
@@ -99,4 +91,3 @@ This project is currently open source with no specific license assigned.
 
 ---
 
-**Last Updated**: May 14, 2026
